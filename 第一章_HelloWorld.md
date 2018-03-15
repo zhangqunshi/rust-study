@@ -51,3 +51,13 @@ rustc hello.rs
 ./hello
 Hello, world!
 ```
+
+注意：如果出现error: no default toolchain configured错误，就运行
+```
+rustup install stable
+rustup default stable
+```
+基本都是网络断了导致的。
+
+
+Rust下载安装的速度会让人发疯~~~，太慢了。还不如把所有东西都放在一个安装包里面。
