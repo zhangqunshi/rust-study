@@ -1,2 +1,4 @@
 /src/hello_world/target
 target
+/src/*.pdb
+/src/*.exe
