@@ -1,10 +1,11 @@
-
+extern crate rand;
 
 use std::io;
-
+use rand:Rng;
 
 fn main() {
-
+    let secret_number = rand::thread_rng().gen_rang(1, 101);
+    
     println!("Please enter a number");
     let mut guess = String::new();
 
